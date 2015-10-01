@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FDF3E7;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #3B3738;
+
+  /* background: #DD2222; */
+  margin: 20px;
+}
+
+#background {
+  max-width: 300px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.imp {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#pigeon {
+  width: calc(20% - 10px);
+  height: auto;
+  position: absolute;
+}
+
+#foreground {
+  position: fixed;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  color: #EEEEEE;
+}
+
+#foreground img {
+  margin-bottom: 10px;
+  max-width: 75%;
+}

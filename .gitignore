@@ -1,0 +1,7 @@
+dist
+node_modules
+.DS_Store
+.editorconfig
+.eslintrc
+.gitignore.swp
+.yo-rc.json
